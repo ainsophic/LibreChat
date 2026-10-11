@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Egeo">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4F46E5"/>
+      <stop offset="100%" style="stop-color:#7C3AED"/>
+    </linearGradient>
+    <rect id="bg" width="64" height="64" rx="14"/>
+  </defs>
+  <!-- Background pill -->
+  <use href="#bg" fill="url(#g)"/>
+  <!-- Stylised E mark in white -->
+  <g stroke="white" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Vertical stroke -->
+    <line x1="18" y1="14" x2="18" y2="50"/>
+    <!-- Top horizontal -->
+    <line x1="18" y1="14" x2="46" y2="14"/>
+    <!-- Middle horizontal -->
+    <line x1="18" y1="32" x2="40" y2="32"/>
+    <!-- Bottom horizontal -->
+    <line x1="18" y1="50" x2="46" y2="50"/>
+    <!-- Wave accent -->
+    <path d="M18 43 Q26 38 34 43 Q42 48 50 43" stroke-width="2.5" opacity="0.6"/>
+  </g>
+</svg>
